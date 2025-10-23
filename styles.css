@@ -1,4 +1,4 @@
-/* Add your CSS to this file */
+
 body {
     margin: 0px;
     font-size: 18px;
@@ -186,7 +186,6 @@ header {
         "."
         "email";
     grid-area: news;
-    color: white;
     width: 500px;
 }
 
@@ -195,6 +194,10 @@ header {
     padding: 60px;
     h3 {
         text-align: center;
+        color: white;
+    }
+    p{
+        color: white;
     }
 }
 
@@ -237,4 +240,8 @@ footer {
     background-color: #4A5568;
     color: white;
     padding: 15px;
+}
+
+.message {
+    padding-top: 20px;
 }
